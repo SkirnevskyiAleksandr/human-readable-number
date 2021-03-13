@@ -19,10 +19,10 @@ else if (lengthNumber == 2){
 }
 else if (lengthNumber == 3){
     if(stringNumber[1] == 0 && stringNumber[2] == 0){
-        return zeroNineteen[ stringNumber[0]] + ' ' + 'hundred';
+        return zeroNineteen[stringNumber[0]] + ' ' + 'hundred';
     }
     else{
-        return zeroNineteen[stringNumber[0]] + ' ' + 'hundred'+ ' ' + toReadable(+(stringNumber[1] + stringNumber[2]))
+        return zeroNineteen[stringNumber[0]] + ' ' + 'hundred'+ ' ' + toReadable(parseInt(stringNumber[1] + stringNumber[2]))
     }
 }
 
